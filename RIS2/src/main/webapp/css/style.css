@@ -1,0 +1,62 @@
+
+header{
+    padding: 2rem;
+    text-align: center;
+    background: #063970;
+   /* font-family: var(--font-raleway);*/
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+table, tr, td, th{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+table{
+    transition: width 0.3s ease;
+    margin:  auto;
+    border-collapse: collapse;
+}
+
+h3{
+    text-align: center;
+}
+
+.filters{
+    width: 37%;
+    margin: 0.5rem auto;
+
+}
+
+#priceForm{
+    margin: 0.5rem;
+}
+
+#downloadForm{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border: 2px solid #063970;
+    border-radius: 20px;
+    padding: 20px;
+    width: 25%;
+}
+
+input[type=submit]{
+    border: 1px solid #063970;
+    background: transparent;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+input[type=submit]:hover{
+    background: #063970;
+    color: white;
+}
+
+option{
+    padding: 2px;
+}
